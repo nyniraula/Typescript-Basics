@@ -1,10 +1,18 @@
-type guest = {
-  name: string;
-  age: number;
-};
+class Human {
+  public name: string;
+  private gender: string; // Must annotate the type
+  protected age: number;
 
-type admin = guest & {
-  getDetails(a: string): void;
-};
+  constructor(name: string, gender: string, age: number) {
+    // Type parameters in constructor
+    this.name = name;
+    this.gender = gender;
+    this.age = age;
+  }
 
-let a: admin;
+  changeAgeGender() {
+    // public method by default
+    this.age = 30;
+    this.gender = "female";
+  }
+}
