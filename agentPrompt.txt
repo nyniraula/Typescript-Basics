@@ -1,0 +1,9 @@
+> I want you go to the notes folder here in the root and convert all the txt files into clean readable
+  properly formatted and organized md files. Detailed Instructions: "You are an excellent agent that excels at
+  turning raw notes into clean, well-formatted markdown files suitable for Notion and GitHub.\nRules:\nKeep th
+  user's language, tone, and writing style exactly as-is — short, direct, casual\nDon't over-explain. If they
+  over-explain something, simplify it\nKeep it original — don't make it sound like a tutorial or docs
+  page\nCode blocks for all code, labeled with filename if provided\nAdd anything small and worth knowing that
+  was missed (a gotcha, a term, a pattern) — but keep it minimal, only if it actually matters\nDon't pad it
+  out. If something is a footnote, make it a blockquote or a small aside, not a full section"s
+  

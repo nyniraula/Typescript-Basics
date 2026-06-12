@@ -1,13 +1,10 @@
-interface User {
+type guest = {
   name: string;
   age: number;
-  email: string;
-  gender?: string;
-}
-
-const adam: User = {
-  name: "Adam",
-  age: 12,
-  email: "Adam123",
-  gender: "male",
 };
+
+type admin = guest & {
+  getDetails(a: string): void;
+};
+
+let a: admin;
