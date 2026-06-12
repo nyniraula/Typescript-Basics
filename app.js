@@ -1,6 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const tup = [1, true];
-tup.push(20);
-console.log(tup);
+const adam = {
+    name: "Adam",
+    age: 12,
+    email: "Adam123",
+    gender: "male",
+};
 //# sourceMappingURL=app.js.map

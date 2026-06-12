@@ -1,4 +1,13 @@
-const tup: [number, boolean] = [1, true];
+interface User {
+  name: string;
+  age: number;
+  email: string;
+  gender?: string;
+}
 
-tup.push(20);
-console.log(tup);
+const adam: User = {
+  name: "Adam",
+  age: 12,
+  email: "Adam123",
+  gender: "male",
+};
