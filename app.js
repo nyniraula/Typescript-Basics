@@ -1,9 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-function doSome(value, cb) {
-    cb(value);
+function doSome(value) {
+    console.log(value);
 }
-doSome(2, (data) => {
-    console.log(data);
-});
+doSome(12);
 //# sourceMappingURL=app.js.map

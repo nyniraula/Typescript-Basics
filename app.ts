@@ -1,7 +1,5 @@
-function doSome(value: number, cb: (value: number) => void) {
-  cb(value);
+function doSome<T extends string | boolean>(value: T) {
+  console.log(value);
 }
 
-doSome(2, (data: number) => {
-  console.log(data);
-});
+doSome(12);
